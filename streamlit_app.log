@@ -1,0 +1,486 @@
+2025-10-22 12:10:05,188 - __main__ - INFO - Loading controller...
+2025-10-22 12:10:05,188 - agents.intent_agent - INFO - IntentAgent initialized
+2025-10-22 12:10:05,188 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-22 12:10:05,188 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-22 12:10:13,068 - agents.retrieval_agent - INFO - RetrievalAgent initialized
+2025-10-22 12:10:13,068 - agents.vision_agent - INFO - VisionAgent initialized
+2025-10-22 12:10:13,068 - agents.reasoning_agent - INFO - ReasoningAgent initialized
+2025-10-22 12:10:13,068 - agents.controller - INFO - Controller initialized
+2025-10-22 12:10:13,068 - agents.retrieval_agent - INFO - Loaded text index with 429 documents
+2025-10-22 12:10:13,068 - agents.retrieval_agent - INFO - Loaded image index with 6 images
+2025-10-22 12:10:45,676 - agents.controller - INFO - Processing query: application of stats
+...
+2025-10-22 12:10:47,205 - agents.intent_agent - INFO - Intent predicted: fact (confidence: 0.95)
+2025-10-22 12:10:47,398 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:10:48,301 - agents.reasoning_agent - INFO - Generated answer for query: application of stats
+...
+2025-10-22 12:11:19,105 - agents.controller - INFO - Processing query: who is this?
+...
+2025-10-22 12:11:19,917 - agents.intent_agent - INFO - Intent predicted: fact (confidence: 0.95)
+2025-10-22 12:11:19,984 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:11:20,839 - agents.reasoning_agent - INFO - Generated answer for query: who is this?
+...
+2025-10-22 12:11:39,872 - agents.controller - INFO - Processing query: A Gift of Chappals...
+2025-10-22 12:11:40,836 - agents.intent_agent - INFO - Intent predicted: fact (confidence: 0.95)
+2025-10-22 12:11:40,891 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:11:41,951 - agents.reasoning_agent - INFO - Generated answer for query: A Gift of Chappals...
+2025-10-22 12:12:26,537 - agents.controller - INFO - Processing query: what does amma says to paati?...
+2025-10-22 12:12:27,551 - agents.intent_agent - INFO - Intent predicted: fact (confidence: 0.95)
+2025-10-22 12:12:27,601 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:12:28,607 - agents.reasoning_agent - INFO - Generated answer for query: what does amma says to paati?...
+2025-10-22 12:12:43,897 - agents.controller - INFO - Processing query: what does the image says?...
+2025-10-22 12:12:44,925 - agents.intent_agent - INFO - Intent predicted: visual (confidence: 0.98)
+2025-10-22 12:12:44,986 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:12:48,827 - agents.vision_agent - INFO - Generated description for D:\Multi-Agent RAG\data\images\download (1).png
+2025-10-22 12:12:55,251 - agents.vision_agent - INFO - Generated description for D:\Multi-Agent RAG\data\images\Applications-of-Statistics-an-infographic.png
+2025-10-22 12:12:59,728 - agents.vision_agent - INFO - Generated description for D:\Multi-Agent RAG\data\images\education-15-00500-g001-550.jpg
+2025-10-22 12:13:01,211 - agents.reasoning_agent - INFO - Generated answer for query: what does the image says?...
+2025-10-22 12:42:07,903 - __main__ - INFO - Loading controller and indexes...
+2025-10-22 12:42:07,903 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-22 12:42:07,903 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-22 12:42:07,903 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with advanced models...
+2025-10-22 12:42:07,903 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-22 12:42:07,903 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-10-22 12:42:14,126 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-10-22 12:42:18,626 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully
+2025-10-22 12:42:18,632 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-22 12:42:18,632 - agents.reasoning_agent - INFO - ReasoningAgent initialized with enhanced config
+2025-10-22 12:42:18,632 - agents.memory_manager - ERROR - Error loading memory: Expecting value: line 1 column 1 (char 0)
+2025-10-22 12:42:18,632 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-22 12:42:31,098 - agents.controller - INFO - Processing query: What does the images says?...
+2025-10-22 12:42:32,394 - agents.intent_agent - INFO - Intent: VISUAL_QUERY | Confidence: 0.95 | Complexity: low
+2025-10-22 12:42:32,991 - agents.retrieval_agent - INFO - Reranked 5 documents, top score: -0.583
+2025-10-22 12:42:33,074 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 0 images
+2025-10-22 12:42:35,653 - agents.memory_manager - INFO - Saved 1 turns to memory
+2025-10-22 12:43:17,353 - agents.controller - INFO - Processing query: what are the statstitics?...
+2025-10-22 12:43:19,009 - agents.intent_agent - INFO - Intent: VISUAL_QUERY | Confidence: 0.75 | Complexity: low
+2025-10-22 12:43:19,242 - agents.retrieval_agent - INFO - Reranked 5 documents, top score: -11.116
+2025-10-22 12:43:19,271 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 0 images
+2025-10-22 12:43:20,368 - agents.memory_manager - INFO - Saved 2 turns to memory
+2025-10-22 12:43:56,897 - agents.controller - INFO - Processing query: application of stats in the images...
+2025-10-22 12:43:58,337 - agents.intent_agent - INFO - Intent: VISUAL_QUERY | Confidence: 0.85 | Complexity: medium
+2025-10-22 12:43:58,723 - agents.retrieval_agent - INFO - Reranked 10 documents, top score: -8.949
+2025-10-22 12:43:58,750 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 0 images
+2025-10-22 12:44:00,064 - agents.memory_manager - INFO - Saved 3 turns to memory
+2025-10-22 12:44:29,622 - agents.controller - INFO - Processing query: data analysis vs data science
+...
+2025-10-22 12:44:31,292 - agents.intent_agent - INFO - Intent: COMPARATIVE_ANALYSIS | Confidence: 0.95 | Complexity: medium
+2025-10-22 12:44:31,639 - agents.retrieval_agent - INFO - Reranked 10 documents, top score: -11.234
+2025-10-22 12:44:31,665 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 2 images
+2025-10-22 12:44:31,666 - agents.controller - INFO - Analyzing 2 images...
+2025-10-22 12:44:57,015 - agents.memory_manager - INFO - Saved 4 turns to memory
+2025-10-22 12:45:36,999 - agents.controller - INFO - Processing query: who is amar?
+...
+2025-10-22 12:45:38,344 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-22 12:45:38,586 - agents.retrieval_agent - INFO - Reranked 5 documents, top score: -1.707
+2025-10-22 12:45:38,586 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 0 images
+2025-10-22 12:45:40,314 - agents.memory_manager - INFO - Saved 5 turns to memory
+2025-10-25 15:03:30,902 - __main__ - INFO - Loading controller and indexes...
+2025-10-25 15:03:30,903 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 15:03:30,903 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 15:03:30,903 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with Jina API...
+2025-10-25 15:03:30,903 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully with Jina API.
+2025-10-25 15:03:30,903 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 15:03:30,903 - agents.reasoning_agent - INFO - ReasoningAgent initialized with enhanced config
+2025-10-25 15:03:30,904 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 15:03:30,904 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 15:03:30,904 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 15:03:30,906 - agents.retrieval_agent - INFO - ✓ Loaded text index: 85 documents
+2025-10-25 15:03:30,906 - agents.retrieval_agent - INFO - ✓ Loaded image index: 6 images
+2025-10-25 15:03:55,362 - agents.controller - INFO - Processing query: give me number Harvard’s endowed funds...
+2025-10-25 15:03:56,934 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-25 15:03:58,187 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 15:03:59,393 - agents.reasoning_agent - INFO - ✓ Generated answer: 12 words, 10 sources
+2025-10-25 15:03:59,396 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-25 15:03:59,396 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.50
+2025-10-25 15:05:16,701 - agents.controller - INFO - Processing query: In which year did the University spend $639 million on capital expenditures?...
+2025-10-25 15:05:18,060 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-25 15:05:22,686 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 15:05:23,865 - agents.reasoning_agent - INFO - ✓ Generated answer: 32 words, 10 sources
+2025-10-25 15:05:23,865 - agents.memory_manager - INFO - Saved 7 turns to memory
+2025-10-25 15:05:23,865 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.50
+2025-10-25 15:07:54,297 - agents.controller - INFO - Processing query: How much did Harvard University spend on capital expenditures in fiscal year 2025?...
+2025-10-25 15:07:57,266 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-25 15:08:06,877 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 15:08:08,735 - agents.reasoning_agent - INFO - ✓ Generated answer: 48 words, 10 sources
+2025-10-25 15:08:08,738 - agents.memory_manager - INFO - Saved 8 turns to memory
+2025-10-25 15:08:08,738 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.50
+2025-10-25 15:10:13,841 - agents.controller - INFO - Processing query: What was the total market value of Harvard University’s endowment as of June 30, 2025?...
+2025-10-25 15:10:15,099 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-25 15:10:24,828 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 15:10:26,467 - agents.reasoning_agent - INFO - ✓ Generated answer: 58 words, 10 sources
+2025-10-25 15:10:26,471 - agents.memory_manager - INFO - Saved 9 turns to memory
+2025-10-25 15:10:26,472 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.80
+2025-10-25 15:10:30,899 - agents.controller - INFO - Processing query: Which division held the largest portion of Harvard’s endowment in 2025?...
+2025-10-25 15:10:32,353 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-25 15:10:39,742 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 15:10:42,112 - agents.reasoning_agent - INFO - ✓ Generated answer: 104 words, 10 sources
+2025-10-25 15:10:42,114 - agents.memory_manager - INFO - Saved 10 turns to memory
+2025-10-25 15:10:42,114 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.90
+2025-10-25 15:11:58,442 - agents.controller - INFO - Processing query: How much was allocated to the Harvard Medical School endowment in 2025?...
+2025-10-25 15:11:59,866 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-25 15:12:00,958 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 15:12:02,220 - agents.reasoning_agent - INFO - ✓ Generated answer: 18 words, 10 sources
+2025-10-25 15:12:02,223 - agents.memory_manager - INFO - Saved 5 turns to memory
+2025-10-25 15:12:02,223 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.50
+2025-10-25 15:24:40,233 - __main__ - INFO - Loading controller and indexes...
+2025-10-25 15:24:40,233 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 15:24:40,233 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 15:24:40,233 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with Jina API...
+2025-10-25 15:24:40,234 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully with Jina API.
+2025-10-25 15:24:40,234 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 15:24:40,234 - agents.reasoning_agent - INFO - ReasoningAgent initialized with enhanced config
+2025-10-25 15:24:40,234 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 15:24:40,234 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 15:24:40,234 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 15:24:40,236 - agents.retrieval_agent - INFO - ✓ Loaded text index: 85 documents
+2025-10-25 15:24:40,236 - agents.retrieval_agent - INFO - ✓ Loaded image index: 6 images
+2025-10-25 15:24:46,413 - agents.controller - INFO - Processing query: What was the endowment return in 2022?...
+2025-10-25 15:24:47,983 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-25 15:25:22,786 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 15:25:23,721 - agents.reasoning_agent - INFO - ✓ Generated answer: 13 words, 10 sources
+2025-10-25 15:25:23,725 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-25 15:25:23,725 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.20
+2025-10-25 15:25:42,000 - agents.controller - INFO - Processing query: Which division held the largest portion of Harvard’s endowment in 2025?...
+2025-10-25 15:25:43,147 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-25 15:25:53,633 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 15:25:55,342 - agents.reasoning_agent - INFO - ✓ Generated answer: 51 words, 10 sources
+2025-10-25 15:25:55,344 - agents.memory_manager - INFO - Saved 7 turns to memory
+2025-10-25 15:25:55,344 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.70
+2025-10-25 16:52:27,644 - __main__ - INFO - Loading controller and indexes...
+2025-10-25 16:52:27,645 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 16:52:27,645 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 16:52:27,645 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with Jina and Gemini APIs...
+2025-10-25 16:52:27,645 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 16:52:27,645 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 16:52:27,645 - agents.reasoning_agent - INFO - ReasoningAgent initialized with enhanced config
+2025-10-25 16:52:27,646 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 16:52:27,646 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 16:52:27,646 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 16:52:27,648 - agents.retrieval_agent - INFO - ✓ Loaded text index: 49 documents
+2025-10-25 16:52:55,317 - agents.controller - INFO - Processing query: What was the endowment return in 2022?...
+2025-10-25 16:52:57,453 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.98 | Complexity: low
+2025-10-25 16:53:02,266 - agents.retrieval_agent - INFO - Retrieved: 10 texts
+2025-10-25 16:53:05,229 - agents.reasoning_agent - INFO - ✓ Generated answer: 14 words, 10 sources
+2025-10-25 16:53:05,239 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-25 16:53:05,239 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.60
+2025-10-25 16:53:21,483 - agents.controller - INFO - Processing query: What was the payout rate in 2014?...
+2025-10-25 16:53:23,920 - agents.intent_agent - ERROR - JSON parsing error: Unterminated string starting at: line 4 column 18 (char 72)
+2025-10-25 16:53:33,575 - agents.retrieval_agent - INFO - Retrieved: 10 texts
+2025-10-25 16:53:44,931 - agents.reasoning_agent - ERROR - Error generating answer: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+2025-10-25 16:53:44,934 - agents.memory_manager - INFO - Saved 7 turns to memory
+2025-10-25 16:53:44,934 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.00
+2025-10-25 16:53:50,362 - agents.controller - INFO - Processing query: What was the payout rate in 2014?...
+2025-10-25 16:53:52,523 - agents.intent_agent - ERROR - Intent prediction error: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+2025-10-25 16:53:58,189 - agents.retrieval_agent - INFO - Retrieved: 10 texts
+2025-10-25 16:54:10,059 - agents.reasoning_agent - INFO - ✓ Generated answer: 45 words, 10 sources
+2025-10-25 16:54:10,062 - agents.memory_manager - INFO - Saved 8 turns to memory
+2025-10-25 16:54:10,063 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.60
+2025-10-25 17:06:58,527 - __main__ - INFO - Loading controller and indexes...
+2025-10-25 17:06:58,528 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 17:06:58,528 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 17:06:58,528 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with Jina and Gemini APIs...
+2025-10-25 17:06:58,528 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 17:06:58,528 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 17:06:58,528 - agents.reasoning_agent - INFO - ReasoningAgent initialized with enhanced config
+2025-10-25 17:06:58,528 - agents.memory_manager - ERROR - Error loading memory: Expecting value: line 1 column 1 (char 0)
+2025-10-25 17:06:58,528 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 17:06:58,528 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 17:06:58,531 - agents.retrieval_agent - INFO - ✓ Loaded text index: 10 documents
+2025-10-25 17:06:58,531 - agents.retrieval_agent - INFO - ✓ Loaded image index: 10 images
+2025-10-25 17:07:12,425 - agents.controller - INFO - Processing query: What was the payout rate in 2014?...
+2025-10-25 17:07:14,945 - agents.intent_agent - ERROR - JSON parsing error: Expecting property name enclosed in double quotes: line 2 column 29 (char 30)
+2025-10-25 17:07:21,399 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 17:07:23,786 - agents.reasoning_agent - INFO - ✓ Generated answer: 53 words, 10 sources
+2025-10-25 17:07:23,788 - agents.memory_manager - INFO - Saved 1 turns to memory
+2025-10-25 17:07:23,788 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.70
+2025-10-25 17:07:32,705 - agents.controller - INFO - Processing query: What was the payout rate in 2014?...
+2025-10-25 17:07:34,559 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 1.00 | Complexity: low
+2025-10-25 17:07:44,618 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 17:07:49,914 - agents.reasoning_agent - INFO - ✓ Generated answer: 97 words, 10 sources
+2025-10-25 17:07:49,915 - agents.memory_manager - INFO - Saved 2 turns to memory
+2025-10-25 17:07:49,916 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.80
+2025-10-25 17:07:57,562 - agents.controller - INFO - Processing query: What was the endowment return in 2022?...
+2025-10-25 17:07:59,968 - agents.intent_agent - ERROR - JSON parsing error: Unterminated string starting at: line 4 column 18 (char 72)
+2025-10-25 17:08:09,804 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 17:08:13,642 - agents.reasoning_agent - INFO - ✓ Generated answer: 110 words, 10 sources
+2025-10-25 17:08:13,645 - agents.memory_manager - INFO - Saved 3 turns to memory
+2025-10-25 17:08:13,645 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.90
+2025-10-25 17:14:18,096 - agents.controller - INFO - Processing query: How much did the University invest in capital expenditures in fiscal year 2025?...
+2025-10-25 17:14:21,046 - agents.intent_agent - ERROR - Intent prediction error: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+2025-10-25 17:14:30,849 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 17:14:34,616 - agents.reasoning_agent - INFO - ✓ Generated answer: 80 words, 10 sources
+2025-10-25 17:14:34,619 - agents.memory_manager - INFO - Saved 4 turns to memory
+2025-10-25 17:14:34,619 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.80
+2025-10-25 17:17:51,171 - __main__ - INFO - Loading controller and indexes...
+2025-10-25 17:17:51,171 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 17:17:51,172 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 17:17:51,172 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with Jina and Gemini APIs...
+2025-10-25 17:17:51,172 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 17:17:51,172 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 17:17:51,172 - agents.reasoning_agent - INFO - ReasoningAgent initialized with enhanced config
+2025-10-25 17:17:51,173 - agents.memory_manager - INFO - Loaded 4 conversation turns from memory
+2025-10-25 17:17:51,173 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 17:17:51,173 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 17:17:51,175 - agents.retrieval_agent - INFO - ✓ Loaded text index: 10 documents
+2025-10-25 17:17:51,175 - agents.retrieval_agent - INFO - ✓ Loaded image index: 10 images
+2025-10-25 17:17:58,322 - agents.controller - INFO - Processing query: What was the payout rate in 2014?...
+2025-10-25 17:18:00,730 - agents.intent_agent - ERROR - Intent prediction error: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+2025-10-25 17:18:21,211 - agents.retrieval_agent - INFO - Retrieved: 10 texts, 0 images
+2025-10-25 17:18:24,793 - agents.reasoning_agent - INFO - ✓ Generated answer: 106 words, 10 sources
+2025-10-25 17:18:24,796 - agents.memory_manager - INFO - Saved 5 turns to memory
+2025-10-25 17:18:24,796 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.90
+2025-10-25 17:18:54,764 - __main__ - INFO - Loading controller and indexes...
+2025-10-25 17:18:54,764 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 17:18:54,764 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 17:18:54,765 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with Jina and Gemini APIs...
+2025-10-25 17:18:54,765 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 17:18:54,765 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 17:18:54,765 - agents.reasoning_agent - INFO - ReasoningAgent initialized with enhanced config
+2025-10-25 17:18:54,765 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 17:18:54,765 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 17:18:54,766 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 17:18:54,768 - agents.retrieval_agent - INFO - ✓ Loaded text index: 49 documents
+2025-10-25 18:58:13,703 - __main__ - INFO - Loading controller and indexes...
+2025-10-25 18:58:13,703 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 18:58:13,703 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 18:58:13,703 - agents.retrieval_agent - INFO - Initializing RetrievalAgent for Image-Only Pipeline...
+2025-10-25 18:58:13,707 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 18:58:13,707 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 18:58:13,707 - agents.reasoning_agent - INFO - ReasoningAgent initialized with Gemini 1.5 Flash
+2025-10-25 18:58:13,707 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 18:58:13,707 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 18:58:13,707 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 18:58:25,818 - __main__ - INFO - Loading controller and indexes...
+2025-10-25 18:58:25,818 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 18:58:25,818 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 18:58:25,818 - agents.retrieval_agent - INFO - Initializing RetrievalAgent for Image-Only Pipeline...
+2025-10-25 18:58:25,822 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 18:58:25,822 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 18:58:25,822 - agents.reasoning_agent - INFO - ReasoningAgent initialized with Gemini 1.5 Flash
+2025-10-25 18:58:25,822 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 18:58:25,822 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 18:58:25,822 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 18:59:31,873 - __main__ - INFO - Loading controller...
+2025-10-25 18:59:31,874 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 18:59:31,874 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 18:59:31,874 - agents.retrieval_agent - INFO - Initializing RetrievalAgent for Image-Only Pipeline...
+2025-10-25 18:59:31,877 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 18:59:31,877 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 18:59:31,877 - agents.reasoning_agent - INFO - ReasoningAgent initialized with Gemini 1.5 Flash
+2025-10-25 18:59:31,877 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 18:59:31,877 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 18:59:31,877 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 18:59:38,609 - agents.controller - INFO - Processing query: How much in taxable bonds (Series 2025B) did the University issue in Spring 2025?...
+2025-10-25 18:59:41,391 - agents.intent_agent - ERROR - JSON parsing error: Unterminated string starting at: line 4 column 18 (char 72)
+2025-10-25 18:59:42,116 - agents.retrieval_agent - ERROR - Qdrant search error: Collection multimodal-rag-collection not found
+2025-10-25 18:59:42,117 - agents.retrieval_agent - INFO - Retrieved: 0 page images
+2025-10-25 18:59:42,117 - agents.reasoning_agent - INFO - Synthesizing final answer based on 0 retrieved page images.
+2025-10-25 18:59:46,220 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-25 18:59:46,220 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-25 19:01:56,691 - __main__ - INFO - Loading controller...
+2025-10-25 19:01:56,691 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 19:01:56,691 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 19:01:56,691 - agents.retrieval_agent - INFO - Initializing RetrievalAgent for Image-Only Pipeline...
+2025-10-25 19:01:56,694 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 19:01:56,695 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 19:01:56,695 - agents.reasoning_agent - INFO - ReasoningAgent initialized with Gemini 1.5 Flash
+2025-10-25 19:01:56,695 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 19:01:56,695 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 19:01:56,695 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 19:01:58,283 - agents.controller - INFO - Processing query: How much in taxable bonds (Series 2025B) did the University issue in Spring 2025?...
+2025-10-25 19:01:58,283 - agents.retrieval_agent - ERROR - Qdrant collection 'multimodal-rag-collection' not found. Please run main.py to build the index first.
+2025-10-25 19:01:58,283 - agents.reasoning_agent - INFO - Synthesizing final answer based on 0 retrieved page images.
+2025-10-25 19:02:00,855 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-25 19:02:00,855 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-25 19:03:40,946 - __main__ - INFO - Loading controller...
+2025-10-25 19:03:40,946 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 19:03:40,946 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 19:03:40,947 - agents.retrieval_agent - INFO - Initializing RetrievalAgent for Image-Only Pipeline...
+2025-10-25 19:05:19,509 - __main__ - INFO - Loading controller...
+2025-10-25 19:05:19,509 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 19:05:19,509 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 19:05:19,509 - agents.retrieval_agent - INFO - Initializing RetrievalAgent for Image-Only Pipeline...
+2025-10-25 19:05:20,376 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-25 19:05:20,381 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 19:05:20,382 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 19:05:20,382 - agents.reasoning_agent - INFO - ReasoningAgent initialized with Gemini 1.5 Flash
+2025-10-25 19:05:20,384 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 19:05:20,384 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 19:05:20,384 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 19:05:45,543 - agents.controller - INFO - Processing query: How much in taxable bonds (Series 2025B) did the University issue in Spring 2025?...
+2025-10-25 19:05:46,326 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-25 19:05:47,863 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 19:05:47,867 - agents.retrieval_agent - INFO - Retrieved: 0 page images
+2025-10-25 19:05:47,867 - agents.reasoning_agent - INFO - Synthesizing final answer based on 0 retrieved page images.
+2025-10-25 19:05:50,696 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-25 19:05:50,696 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-25 19:06:36,473 - agents.controller - INFO - Processing query: What was the endowment's rate of return in fiscal year 2025?...
+2025-10-25 19:06:37,235 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-25 19:06:40,568 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 19:06:40,568 - agents.retrieval_agent - INFO - Retrieved: 0 page images
+2025-10-25 19:06:40,568 - agents.reasoning_agent - INFO - Synthesizing final answer based on 0 retrieved page images.
+2025-10-25 19:06:47,837 - agents.memory_manager - INFO - Saved 7 turns to memory
+2025-10-25 19:06:47,838 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-25 19:06:58,602 - __main__ - INFO - Loading controller...
+2025-10-25 19:06:58,603 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 19:06:58,603 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 19:06:58,603 - agents.retrieval_agent - INFO - Initializing RetrievalAgent for Image-Only Pipeline...
+2025-10-25 19:06:59,468 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-25 19:06:59,470 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 19:06:59,470 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 19:06:59,470 - agents.reasoning_agent - INFO - ReasoningAgent initialized with Gemini 1.5 Flash
+2025-10-25 19:06:59,471 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 19:06:59,471 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 19:06:59,471 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 19:07:02,720 - agents.controller - INFO - Processing query: What was the endowment's rate of return in fiscal year 2025?...
+2025-10-25 19:07:03,484 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-25 19:07:08,498 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 19:07:12,181 - agents.retrieval_agent - INFO - Retrieved: 10 page images
+2025-10-25 19:07:12,181 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved page images.
+2025-10-25 19:07:23,492 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-25 19:07:23,492 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-25 19:07:41,326 - agents.controller - INFO - Processing query: Did Harvard University Professorships receive over $1 billion in endowment funds in 2025?...
+2025-10-25 19:07:42,148 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-25 19:07:44,268 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 19:07:47,659 - agents.retrieval_agent - INFO - Retrieved: 10 page images
+2025-10-25 19:07:47,659 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved page images.
+2025-10-25 19:07:53,251 - agents.memory_manager - INFO - Saved 7 turns to memory
+2025-10-25 19:07:53,251 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-25 19:08:00,335 - agents.controller - INFO - Processing query: What was the payout rate in 2014?
+...
+2025-10-25 19:08:01,118 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-25 19:08:02,215 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 19:08:05,485 - agents.retrieval_agent - INFO - Retrieved: 10 page images
+2025-10-25 19:08:05,485 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved page images.
+2025-10-25 19:08:10,222 - agents.memory_manager - INFO - Saved 8 turns to memory
+2025-10-25 19:08:10,222 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-25 19:08:14,923 - agents.controller - INFO - Processing query: How much in taxable bonds (Series 2025B) did the University issue in Spring 2025?...
+2025-10-25 19:08:15,709 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-25 19:08:18,541 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 19:08:21,772 - agents.retrieval_agent - INFO - Retrieved: 10 page images
+2025-10-25 19:08:21,773 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved page images.
+2025-10-25 19:08:26,287 - agents.memory_manager - INFO - Saved 9 turns to memory
+2025-10-25 19:08:26,287 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-25 22:51:46,227 - __main__ - INFO - Loading controller...
+2025-10-25 22:51:46,228 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-25 22:51:46,228 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-25 22:51:46,228 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with Qdrant, Jina and Gemini APIs...
+2025-10-25 22:51:47,550 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-25 22:51:47,553 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-25 22:51:47,553 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-25 22:51:47,553 - agents.reasoning_agent - INFO - ReasoningAgent initialized with gemini-2.5-flash
+2025-10-25 22:51:47,554 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-25 22:51:47,554 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-25 22:51:47,554 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-25 22:52:06,161 - agents.controller - INFO - Processing query: How much did the University spend on capital expenditures in fiscal year 2025?...
+2025-10-25 22:52:09,987 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 22:52:09,990 - agents.retrieval_agent - INFO - Retrieved: 0 pages
+2025-10-25 22:52:09,990 - agents.reasoning_agent - INFO - Synthesizing final answer based on 0 retrieved pages.
+2025-10-25 22:52:11,869 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-25 22:52:11,870 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.10
+2025-10-25 22:52:38,303 - agents.controller - INFO - Processing query: What was the endowment's rate of return in fiscal year 2025?...
+2025-10-25 22:52:41,612 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 22:52:41,631 - agents.retrieval_agent - INFO - Retrieved: 0 pages
+2025-10-25 22:52:41,632 - agents.reasoning_agent - INFO - Synthesizing final answer based on 0 retrieved pages.
+2025-10-25 22:52:50,417 - agents.memory_manager - INFO - Saved 7 turns to memory
+2025-10-25 22:52:50,417 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.10
+2025-10-25 22:55:13,580 - agents.controller - INFO - Processing query: What was the endowment's rate of return in fiscal year 2025?...
+2025-10-25 22:55:16,181 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-25 22:55:16,182 - agents.retrieval_agent - INFO - Retrieved: 0 pages
+2025-10-25 22:55:16,182 - agents.reasoning_agent - INFO - Synthesizing final answer based on 0 retrieved pages.
+2025-10-25 22:55:25,351 - agents.memory_manager - INFO - Saved 8 turns to memory
+2025-10-25 22:55:25,352 - agents.controller - INFO - ✓ Query processed successfully | Quality: 0.10
+2025-10-26 09:41:23,839 - __main__ - INFO - Loading controller...
+2025-10-26 09:41:23,839 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-26 09:41:23,839 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-26 09:41:23,839 - agents.retrieval_agent - INFO - Initializing RetrievalAgent for Hybrid Pipeline...
+2025-10-26 09:41:25,127 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-26 09:41:25,129 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully.
+2025-10-26 09:41:25,129 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-26 09:41:25,130 - agents.reasoning_agent - INFO - ReasoningAgent initialized with gemini-2.5-flash
+2025-10-26 09:41:25,130 - agents.memory_manager - INFO - Loaded 5 conversation turns from memory
+2025-10-26 09:41:25,130 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-26 09:41:25,130 - agents.controller - INFO - ✓ Controller initialized successfully
+2025-10-26 09:41:30,554 - agents.controller - INFO - Processing query: Did Harvard University Professorships receive over $1 billion in endowment funds in 2025?...
+2025-10-26 09:41:31,744 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-26 09:41:36,644 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-26 09:41:36,647 - agents.retrieval_agent - INFO - Retrieved 10 chunks from Qdrant.
+2025-10-26 09:41:36,647 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved chunks.
+2025-10-26 09:41:36,648 - agents.reasoning_agent - INFO - Adding image context from page 13 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_13.jpg)
+2025-10-26 09:41:36,648 - agents.reasoning_agent - INFO - Adding image context from page 6 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_6.jpg)
+2025-10-26 09:41:36,649 - agents.reasoning_agent - INFO - Adding image context from page 8 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_8.jpg)
+2025-10-26 09:41:36,650 - agents.reasoning_agent - INFO - Adding image context from page 7 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_7.jpg)
+2025-10-26 09:41:36,651 - agents.reasoning_agent - INFO - Adding image context from page 10 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_10.jpg)
+2025-10-26 09:41:50,468 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-26 09:41:50,469 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-26 09:42:18,745 - agents.controller - INFO - Processing query: Did Harvard University Professorships receive over $1 billion in endowment funds in 2025?...
+2025-10-26 09:42:19,976 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-26 09:42:20,461 - agents.controller - INFO - Processing query: What was the payout rate in 2014?...
+2025-10-26 09:42:20,690 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-26 09:42:24,324 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-26 09:42:24,328 - agents.retrieval_agent - INFO - Retrieved 10 chunks from Qdrant.
+2025-10-26 09:42:24,328 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved chunks.
+2025-10-26 09:42:24,328 - agents.reasoning_agent - INFO - Adding image context from page 13 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_13.jpg)
+2025-10-26 09:42:24,331 - agents.reasoning_agent - INFO - Adding image context from page 6 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_6.jpg)
+2025-10-26 09:42:24,332 - agents.reasoning_agent - INFO - Adding image context from page 8 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_8.jpg)
+2025-10-26 09:42:24,333 - agents.reasoning_agent - INFO - Adding image context from page 7 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_7.jpg)
+2025-10-26 09:42:24,334 - agents.reasoning_agent - INFO - Adding image context from page 10 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_10.jpg)
+2025-10-26 09:42:25,397 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-26 09:42:25,398 - agents.retrieval_agent - INFO - Retrieved 10 chunks from Qdrant.
+2025-10-26 09:42:25,398 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved chunks.
+2025-10-26 09:42:25,399 - agents.reasoning_agent - INFO - Adding image context from page 9 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_9.jpg)
+2025-10-26 09:42:25,400 - agents.reasoning_agent - INFO - Adding image context from page 8 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_8.jpg)
+2025-10-26 09:42:25,400 - agents.reasoning_agent - INFO - Adding image context from page 13 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_13.jpg)
+2025-10-26 09:42:25,400 - agents.reasoning_agent - INFO - Adding image context from page 6 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_6.jpg)
+2025-10-26 09:42:25,400 - agents.reasoning_agent - INFO - Adding image context from page 7 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_7.jpg)
+2025-10-26 09:42:25,400 - agents.reasoning_agent - INFO - Adding image context from page 10 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_10.jpg)
+2025-10-26 09:42:31,101 - agents.memory_manager - INFO - Saved 7 turns to memory
+2025-10-26 09:42:31,102 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-26 09:42:36,562 - agents.memory_manager - INFO - Saved 8 turns to memory
+2025-10-26 09:42:36,562 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-26 09:42:58,555 - agents.controller - INFO - Processing query: How much in taxable bonds (Series 2025B) did the University issue in Spring 2025?...
+2025-10-26 09:42:59,726 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-26 09:43:01,057 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-26 09:43:01,058 - agents.retrieval_agent - INFO - Retrieved 10 chunks from Qdrant.
+2025-10-26 09:43:01,058 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved chunks.
+2025-10-26 09:43:01,059 - agents.reasoning_agent - INFO - Adding image context from page 9 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_9.jpg)
+2025-10-26 09:43:01,059 - agents.reasoning_agent - INFO - Adding image context from page 8 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_8.jpg)
+2025-10-26 09:43:01,060 - agents.reasoning_agent - INFO - Adding image context from page 6 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_6.jpg)
+2025-10-26 09:43:01,060 - agents.reasoning_agent - INFO - Adding image context from page 10 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_10.jpg)
+2025-10-26 09:43:01,061 - agents.reasoning_agent - INFO - Adding image context from page 13 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_13.jpg)
+2025-10-26 09:43:08,950 - agents.memory_manager - INFO - Saved 9 turns to memory
+2025-10-26 09:43:08,950 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-26 09:44:12,946 - agents.controller - INFO - Processing query: Treding financial Yahoo...
+2025-10-26 09:44:14,112 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-26 09:44:20,336 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-26 09:44:20,340 - agents.retrieval_agent - INFO - Retrieved 10 chunks from Qdrant.
+2025-10-26 09:44:20,340 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved chunks.
+2025-10-26 09:44:20,340 - agents.reasoning_agent - INFO - Adding image context from page 9 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_9.jpg)
+2025-10-26 09:44:20,342 - agents.reasoning_agent - INFO - Adding image context from page 13 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_13.jpg)
+2025-10-26 09:44:20,343 - agents.reasoning_agent - INFO - Adding image context from page 10 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_10.jpg)
+2025-10-26 09:44:20,345 - agents.reasoning_agent - INFO - Adding image context from page 8 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_8.jpg)
+2025-10-26 09:44:23,571 - agents.memory_manager - INFO - Saved 10 turns to memory
+2025-10-26 09:44:23,572 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-26 09:45:06,910 - agents.controller - INFO - Processing query: What percentage of Radcliffe’s operating revenue came from endowment income in fiscal year 2025?...
+2025-10-26 09:45:08,066 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-26 09:45:24,695 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-26 09:45:24,699 - agents.retrieval_agent - INFO - Retrieved 10 chunks from Qdrant.
+2025-10-26 09:45:24,699 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved chunks.
+2025-10-26 09:45:24,699 - agents.reasoning_agent - INFO - Adding image context from page 13 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_13.jpg)
+2025-10-26 09:45:24,701 - agents.reasoning_agent - INFO - Adding image context from page 6 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_6.jpg)
+2025-10-26 09:45:24,702 - agents.reasoning_agent - INFO - Adding image context from page 8 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_8.jpg)
+2025-10-26 09:45:24,702 - agents.reasoning_agent - INFO - Adding image context from page 7 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_7.jpg)
+2025-10-26 09:45:24,703 - agents.reasoning_agent - INFO - Adding image context from page 10 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_10.jpg)
+2025-10-26 09:45:28,009 - agents.memory_manager - INFO - Saved 5 turns to memory
+2025-10-26 09:45:28,010 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00
+2025-10-26 09:45:50,570 - agents.controller - INFO - Processing query: How much of the Public Health School’s revenue came from sponsored support?...
+2025-10-26 09:45:51,774 - httpx - INFO - HTTP Request: GET https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection "HTTP/1.1 200 OK"
+2025-10-26 09:45:58,183 - httpx - INFO - HTTP Request: POST https://2102a7b7-36e1-49bb-bcdc-6416ee7f3e23.us-east4-0.gcp.cloud.qdrant.io:6333/collections/multimodal-rag-collection/points/search "HTTP/1.1 200 OK"
+2025-10-26 09:45:58,188 - agents.retrieval_agent - INFO - Retrieved 10 chunks from Qdrant.
+2025-10-26 09:45:58,188 - agents.reasoning_agent - INFO - Synthesizing final answer based on 10 retrieved chunks.
+2025-10-26 09:45:58,189 - agents.reasoning_agent - INFO - Adding image context from page 8 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_8.jpg)
+2025-10-26 09:45:58,190 - agents.reasoning_agent - INFO - Adding image context from page 7 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_7.jpg)
+2025-10-26 09:45:58,190 - agents.reasoning_agent - INFO - Adding image context from page 6 (/Users/vbi2/Documents/lab_nlp/doc_dev/Multimodel-RAG/data/reports/../images/0a1fc9ad-d269-454d-a1cd-c0a949164e9f_page_6.jpg)
+2025-10-26 09:46:04,677 - agents.memory_manager - INFO - Saved 6 turns to memory
+2025-10-26 09:46:04,677 - agents.controller - INFO - ✓ Query processed successfully | Quality: 1.00

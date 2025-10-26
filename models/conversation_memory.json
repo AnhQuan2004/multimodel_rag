@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2025-10-26T09:42:36.561352",
+    "query": "What was the payout rate in 2014?",
+    "answer": "The payout rate in 2014 was 5.6% [Image from page 10].",
+    "intent": "HYBRID_SEARCH",
+    "confidence": 0,
+    "num_texts": 0,
+    "num_images": 0,
+    "metrics": {
+      "quality_score": 1.0
+    }
+  },
+  {
+    "timestamp": "2025-10-26T09:43:08.949635",
+    "query": "How much in taxable bonds (Series 2025B) did the University issue in Spring 2025?",
+    "answer": "The University maintained $750 million in taxable bonds (Series 2025B) in Spring 2025 [doc_id: 0a1fc9ad-d269-454d-a1cd-c0a949164e9f, page 9, chunk 0], [Image from page 9]. These bonds were used to fund certain University capital projects that were underway [doc_id: 0a1fc9ad-d269-454d-a1cd-c0a949164e9f, page 9, chunk 0].",
+    "intent": "HYBRID_SEARCH",
+    "confidence": 0,
+    "num_texts": 0,
+    "num_images": 0,
+    "metrics": {
+      "quality_score": 1.0
+    }
+  },
+  {
+    "timestamp": "2025-10-26T09:44:23.570587",
+    "query": "Treding financial Yahoo",
+    "answer": "Based on the provided context, there is no information about \"Trending financial Yahoo\" or any references to Yahoo.",
+    "intent": "HYBRID_SEARCH",
+    "confidence": 0,
+    "num_texts": 0,
+    "num_images": 0,
+    "metrics": {
+      "quality_score": 1.0
+    }
+  },
+  {
+    "timestamp": "2025-10-26T09:45:28.008343",
+    "query": "What percentage of Radcliffe’s operating revenue came from endowment income in fiscal year 2025?",
+    "answer": "In fiscal year 2025, 86% of Radcliffe's operating revenue came from endowment income [0a1fc9ad-d269-454d-a1cd-c0a949164e9f, Image from page 6].",
+    "intent": "HYBRID_SEARCH",
+    "confidence": 0,
+    "num_texts": 0,
+    "num_images": 0,
+    "metrics": {
+      "quality_score": 1.0
+    }
+  },
+  {
+    "timestamp": "2025-10-26T09:46:04.676056",
+    "query": "How much of the Public Health School’s revenue came from sponsored support?",
+    "answer": "Of the Public Health School's revenue, 56% came from sponsored support [Image from page 6].",
+    "intent": "HYBRID_SEARCH",
+    "confidence": 0,
+    "num_texts": 0,
+    "num_images": 0,
+    "metrics": {
+      "quality_score": 1.0
+    }
+  }
+]

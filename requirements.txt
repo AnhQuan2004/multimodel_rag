@@ -1,0 +1,13 @@
+
+google-generativeai
+streamlit
+python-dotenv
+pdfplumber
+PyMuPDF
+pytesseract
+qdrant-client
+transformers
+pillow
+numpy
+plotly
+requests
